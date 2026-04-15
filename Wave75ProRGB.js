@@ -224,6 +224,14 @@ export function Validate(endpoint) {
     return endpoint.interface === 1 && endpoint.usage_page === 0xff60;
 }
 
+/**
+ * Lists processes that may conflict with this plugin. SignalRGB will warn the user if any of these are running.
+ * @returns {string[]} - Array of conflicting processes
+ */
+export function ConflictingProcesses() {
+    return ["PMO HUB.exe"];
+}
+
 /** @returns {string} URL to an image to represent the device in the UI. */
 export function ImageUrl() {
     // Png image converted to base64
