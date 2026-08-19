@@ -11,7 +11,7 @@ A custom SignalRGB plugin for the **PMO/WOB Wave75 Pro** keyboard. This project 
 - **Random LED Flashes (Hardware Glitch):** You may occasionally see random keys flash for a split second. This is a known hardware/firmware quirk, not related to this plugin and cannot be fully fixed via software.
 - **Logo LED:** The Logo LED is currently not supported by this plugin.
 - **QMK Firmware:** This plugin was reverse-engineered on the stock firmware. It has **NOT** been tested on boards flashed with QMK/VIA.
-- **Connectivity:** Only Wired USB connection is supported. Bluetooth mode and 2.4G is not supported with this plugin.
+- **Connectivity:** Only Wired USB connection is supported for RGB syncing. Bluetooth mode and 2.4G is usable but will not RGB sync due to wireless bandwidth limit.
 
 ## Installation
 1. Download the `Wave75ProRGB.js` plugin file from this repository.
@@ -33,7 +33,7 @@ Plugin SignalRGB tùy chỉnh cho bàn phím **PMO/WOB Wave75 Pro RGB**. Dự á
 - **Hiện tượng nháy đèn ngẫu nhiên (Lỗi phần cứng):** Trong quá trình sử dụng, một vài phím có thể nháy sáng đột ngột trong tích tắc với màu sắc ngẫu nhiên. Đây là lỗi có sẵn của phần cứng/firmware, không liên quan đến plugin này và không thể khắc phục hoàn toàn bằng phần mềm.
 - **LED Logo:** Đèn LED Logo hiện chưa được hỗ trợ trong plugin này.
 - **Firmware QMK:** Plugin được dịch ngược dựa trên firmware gốc. **CHƯA ĐƯỢC THỬ NGHIỆM** trên các bàn phím đã flash firmware QMK/VIA.
-- **Kết nối:** Chỉ hỗ trợ kết nối có dây. Bluetooth và 2.4G không được hỗ trợ.
+- **Kết nối:** Đồng bộ RGB chỉ hỗ trợ kết nối có dây. Bluetooth và 2.4G vẫn dùng được nhưng sẽ không đồng bộ RGB với app do giới hạn băng thông của kết nối có dây.
 
 ## Hướng dẫn Cài đặt
 1. Tải file plugin `Wave75ProRGB.js` từ repository này.
